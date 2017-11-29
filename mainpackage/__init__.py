@@ -1,5 +1,9 @@
-from main import main
-from aa import a
-from bb import b
-from cc import c
-from dd import d
+
+try:
+    from main import main_func
+    from aa import a
+    from bb import b
+    from cc import c
+    from dd import d
+except ImportError:
+    pass 

@@ -6,13 +6,13 @@
 #from mainShrey.cc import c
 #from mainShrey.dd import d
 import mainpackage
-from mainpackage import main
+from mainpackage import main_func
 def new():
     print('\r\n we are in file-new.py \r\n')
     return 10
 
 print(new())
-print(main())
+print(main_func())
 print(mainpackage.a())
 print(mainpackage.b())
 print(mainpackage.c())

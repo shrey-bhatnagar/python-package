@@ -5,13 +5,13 @@ from bb import b
 from cc import c
 from dd import d
 
-def main():
+def main_func():
     print('\r\n we are in file-main.py \r\n')
     return 10
 
 
 if __name__ == "__main__":
-    print(main())
+    print(main_func())
     print(a())
     print(b())
     print(c())
