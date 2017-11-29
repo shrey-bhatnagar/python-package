@@ -5,9 +5,9 @@
 #from mainShrey.bb import b
 #from mainShrey.cc import c
 #from mainShrey.dd import d
-import mainShrey
-from mainShrey import main
-def new()
+import mainpackage
+from mainpackage import main
+def new():
     print('\r\n we are in file-new.py \r\n')
     return 10
 
@@ -17,3 +17,11 @@ print(mainpackage.a())
 print(mainpackage.b())
 print(mainpackage.c())
 print(mainpackage.d())
+
+def shrey_assert(val):
+    assert (val >= 0),"val is less than ZERO!"
+    return val**val
+
+shrey_assert(1)### negative value to raise assert
+
+
