@@ -30,6 +30,6 @@ def shrey_assert(val):
     #assert (val >= 0),"val is less than ZERO!"
 
 #shrey_assert(1)### negative value to raise assert
-
+assert shrey_assert(-1) == 1
 
 print('\r\nexecution of new.py completed\r\n')
