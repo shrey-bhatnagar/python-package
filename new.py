@@ -7,7 +7,7 @@
 #from mainShrey.dd import d
 import mainpackage
 #from mainpackage import main_func
-def new():
+def new()
     print('\r\n we are in file-new.py \r\n')
     return 10
 
