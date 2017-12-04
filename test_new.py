@@ -10,4 +10,4 @@ def test_2():
     assert shrey_assert(0) == 0
 
 def test_3():
-    assert shrey_assert(-1) == None #1
+    assert shrey_assert(-1) == 1#None #1
